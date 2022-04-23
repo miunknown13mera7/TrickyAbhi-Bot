@@ -241,7 +241,9 @@ def yone_about_callback(update: Update, context: CallbackContext):
                 [
                    [
                      InlineKeyboardButton(text="Support", url="https://t.me/ul0316"),
-                     InlineKeyboardButton(text="Youtube", url="https://m.youtube.com/channel/UCY97ZYgznMcln0cgdTnLuMQ"),
+  
+                                          
+
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="yone_back")
