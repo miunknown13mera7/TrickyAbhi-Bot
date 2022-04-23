@@ -203,7 +203,6 @@ def start(update: Update, context: CallbackContext):
                         text="SUPPORT", 
                         url=f"https://t.me/{SUPPORT_CHAT}"),
                     
-                    
                     InlineKeyboardButton(
                         text="DEVLOPER", 
                         url=f"https://t.me/{OWNER_USERNAME}")
