@@ -197,12 +197,10 @@ def start(update: Update, context: CallbackContext):
         
 
             keyboard = InlineKeyboardMarkup([
-                [
-
+                [  
                     InlineKeyboardButton(
                         text="SUPPORT", 
                         url=f"https://t.me/{SUPPORT_CHAT}"),
-                    
                     InlineKeyboardButton(
                         text="DEVLOPER", 
                         url=f"https://t.me/{OWNER_USERNAME}")
@@ -242,10 +240,8 @@ def yone_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="https://t.me/ul0316"),
-  
-                                          
-
+                     InlineKeyboardButton(text="Support", url="https://t.me/MiUnknown13mera7ul0316"),
+                     InlineKeyboardButton(text="News", url="https://t.me/MiUnknown13mera7ul0316"),
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="yone_back")
