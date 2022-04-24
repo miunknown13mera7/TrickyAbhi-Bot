@@ -164,7 +164,7 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="❤️ Add me to your chat ❤️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="💞 Add me to your chat 💞", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Admin", callback_data="admin_back"),
@@ -256,7 +256,7 @@ def yone_about_callback(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
-            text="❤️ Add me to your chat ❤️", url=f"https://t.me/{context.bot.username}?startgroup=true"),
+            text="💞 Add me to your chat 💞", url=f"https://t.me/{context.bot.username}?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Admin", callback_data="admin_back"),
